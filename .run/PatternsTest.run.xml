@@ -1,0 +1,36 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="PatternsTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+    <module name="improved-developer-experience-with-java-21" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="dev.akif.improveddeveloperexperiencewithjava21.patterns.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="PACKAGE_NAME" value="dev.akif.improveddeveloperexperiencewithjava21.patterns" />
+    <option name="MAIN_CLASS_NAME" value="dev.akif.improveddeveloperexperiencewithjava21.patterns.PatternsTest" />
+    <option name="METHOD_NAME" value="" />
+    <option name="TEST_OBJECT" value="class" />
+    <option name="VM_PARAMETERS" value="-ea --enable-preview" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+  <configuration default="false" name="PatternsTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+    <module name="improved-developer-experience-with-java-21" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="dev.akif.improveddeveloperexperiencewithjava21.patterns.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="PACKAGE_NAME" value="dev.akif.improveddeveloperexperiencewithjava21.patterns" />
+    <option name="MAIN_CLASS_NAME" value="dev.akif.improveddeveloperexperiencewithjava21.patterns.PatternsTest" />
+    <option name="METHOD_NAME" value="" />
+    <option name="TEST_OBJECT" value="class" />
+    <option name="VM_PARAMETERS" value="-ea --enable-preview" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="NewMain" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="NewMain" />
+    <module name="improved-developer-experience-with-java-21" />
+    <option name="VM_PARAMETERS" value="--enable-preview" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="dev.akif.improveddeveloperexperiencewithjava21.unnamedclasses.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
