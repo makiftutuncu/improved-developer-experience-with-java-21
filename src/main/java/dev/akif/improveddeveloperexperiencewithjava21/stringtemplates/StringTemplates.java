@@ -1,5 +1,6 @@
 package dev.akif.improveddeveloperexperiencewithjava21.stringtemplates;
 
+import static dev.akif.improveddeveloperexperiencewithjava21.stringtemplates.WelcomeEmailProcessor.WE;
 import static java.lang.StringTemplate.RAW;
 
 public class StringTemplates {
@@ -67,11 +68,9 @@ public class StringTemplates {
     }
 
     public EmailTemplate prepareWelcomeEmail(long id, String user, String date) throws IllegalArgumentException {
-        return new WelcomeEmailProcessor().process(
-                RAW."""
+        return WE."""
                 userName: \{user}
                 registrationDate: \{date}
-                userId: \{id}"""
-        );
+                userId: \{id}""";
     }
 }

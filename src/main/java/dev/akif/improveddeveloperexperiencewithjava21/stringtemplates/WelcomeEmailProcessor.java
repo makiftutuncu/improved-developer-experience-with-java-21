@@ -6,6 +6,10 @@ import java.util.Map;
 import java.util.function.Function;
 
 public final class WelcomeEmailProcessor implements StringTemplate.Processor<EmailTemplate, IllegalArgumentException> {
+    public static final WelcomeEmailProcessor WE = new WelcomeEmailProcessor();
+
+    private WelcomeEmailProcessor() {}
+
     @Override
     public EmailTemplate process(StringTemplate template) throws IllegalArgumentException {
         List<String> f = template.fragments();

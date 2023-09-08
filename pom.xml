@@ -30,8 +30,8 @@
                     <release>21</release>
                     <!-- To be able to compile with Maven-->
                     <compilerArgs>--enable-preview</compilerArgs>
-                    <source>19</source>
-                    <target>19</target>
+                    <source>21</source>
+                    <target>21</target>
                 </configuration>
             </plugin>
             <plugin>
